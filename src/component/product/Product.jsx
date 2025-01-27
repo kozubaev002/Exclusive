@@ -1,6 +1,5 @@
 import React from 'react'
 import './Product.scss'
-import Star from '../../assets/svg/star.jsx'
 import { FaRegHeart } from "react-icons/fa6";
 import { useDispatch, useSelector } from 'react-redux';
 import { addWish, deleteWish } from '../../Redux/Wish/WishSlice.js';
@@ -42,13 +41,7 @@ function Product({ product }) {
         <span className='price'>${product.price}</span>
       </p>
       <div className="rating">
-        <div className="stars">
-          {
-            [1, 2, 3, 4, 5].map((x) => (
-              <Star key={x} fill={product.rating >= x ? "#FFAD33" : "gray"} />
-            ))
-          }
-        </div>
+       
         <span>{product.rating}</span>
       </div>
     </div>
