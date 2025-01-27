@@ -1,0 +1,82 @@
+.about {
+
+    h3 {
+        margin-top: 20px;
+        display: flex;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0%;
+        text-align: left;
+
+
+        p {
+            opacity: 0.5;
+            /* Title/14PX Regular */
+            color: rgb(0, 0, 0);
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+
+
+    .product-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        margin-top: 150px;
+    }
+
+    .Our-Story {
+        display: flex;
+        margin-top: 140px;
+        justify-content: start;
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h3 {
+                /* Heading/54PX SemiBold */
+                color: rgb(0, 0, 0);
+                font-family: Inter;
+                font-size: 54px;
+                font-weight: 600;
+                line-height: 64px;
+            }
+
+            p {
+                color: rgb(0, 0, 0);
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+        }
+
+
+
+        img {
+            width: 837px;
+            height: 609px;
+        }
+    }
+}

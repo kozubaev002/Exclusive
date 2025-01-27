@@ -1,0 +1,98 @@
+.frame767 {
+    display: flex;
+    margin-top: 83px;
+
+    img {
+        width: 805px;
+        height: 781px;
+    }
+
+    .Exclusive {
+        margin-top: 227px;
+        margin-left: 129px;
+
+        .Enter {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+
+            h2 {
+                /* Heading/36PX Medium */
+                color: rgb(0, 0, 0);
+                font-family: Inter;
+                font-size: 36px;
+                font-weight: 500;
+                line-height: 30px;
+                letter-spacing: 4%;
+                text-align: left;
+            }
+
+            p {
+                /* Title/16PX Regular */
+                color: rgb(0, 0, 0);
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+
+            .Password {
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+
+                input {
+                    width: 300px;
+                    padding: 10px 15px;
+                    font-size: 16px;
+                    border: 2px solid #ccc;
+                    border-radius: 5px;
+                    outline: none;
+                    transition: border-color 0.3s, box-shadow 0.3s;
+                }
+
+            }
+        }
+
+
+        .Forget {
+            display: flex;
+            gap: 87px;
+            margin-top: 40px;
+
+
+            button {
+                width: 143px;
+                height: 56px;
+                border-radius: 4px;
+
+                /* Button2 */
+                background: rgb(219, 68, 68);
+                /* Title/16PX Medium */
+                color: rgb(250, 250, 250);
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0%;
+                text-align: center;
+                border: none;
+            }
+
+            p {
+                /* Title/16PX Regular */
+                color: rgb(219, 68, 68);
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0%;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}

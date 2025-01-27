@@ -1,0 +1,121 @@
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.top-header {
+    width: 100%;
+    height: 48px;
+    background-color: black;
+
+    .header-content {
+       display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        height: 100%;
+
+        p {
+            /* Title/14PX Regular */
+            color: rgb(250, 250, 250);
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0%;
+
+            a {
+                color: rgb(250, 250, 250);
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 0%;
+                text-align: center;
+                text-decoration-line: underline;
+            }
+        }
+
+    }
+
+}
+
+
+.main-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+
+    .header-left {
+        display: flex;
+
+        h3 {
+            /* Heading/24PX Bold */
+            color: rgb(0, 0, 0);
+            font-family: Inter;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 3%;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 48px;
+            margin-left: 190px;
+
+            a {
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0%;
+            }
+
+        }
+
+
+    }
+}
+
+.header-right {
+    display: flex;
+    gap: 40px;
+
+
+    .search {
+        width: 243px;
+        height: 38px;
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background: rgb(245, 245, 245);
+
+
+        input {
+            width: 211px;
+            height: 24px;
+            gap: 34px;
+            /* Title/12PX Regular */
+            color: rgb(0, 0, 0);
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0%;
+            text-align: left;
+            border: none;
+        }
+    }
+
+    .icons {
+        display: flex;
+        gap: 16px;
+        // width: 32px;
+        // height: 32px;
+    }
+
+}
